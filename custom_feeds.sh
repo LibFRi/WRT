@@ -15,3 +15,4 @@
 
 # Add a feed source
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
+git clone -b luci2 https://github.com/kuoruan/luci-app-v2ray.git package/luci-app-v2ray
