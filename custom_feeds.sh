@@ -16,5 +16,5 @@
 # Add a feed source
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 git clone -b master --depth 1 https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
-wget -q -O - https://github.com/upx/upx/releases/download/v3.96/upx-3.96-amd64_linux.tar.xz | tar -Jx --strip 1 -f - -C /staging_dir/host/bin upx-3.96-amd64_linux/upx
+
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
